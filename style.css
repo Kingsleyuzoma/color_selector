@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #color-box {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 5px solid #333;
+    
+  }
+  
+  #buttons {
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #444;
+  }
+  
+  button:active {
+    transform: translateY(2px);
+  }
+  
+  #copy-btn {
+    background-color: #4CAF50;
+  }
+  
+  #copy-btn:hover {
+    background-color: #3e8e41;
+  }
+  
+  
+  #copy-RGB{
+    background-color: #40abaf;
+  }
+  
+  #resetBtn{
+    background-color: black;
+    color: white;
+  }
+  
+  #colorCode{
+    font-size: 2rem;
+    color: green;
+  }
